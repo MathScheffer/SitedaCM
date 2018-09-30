@@ -1,0 +1,475 @@
+*{
+	font-family: Bebas Neue;
+}
+.flex{
+	display:flex;
+	flex-wrap: wrap;
+}
+body {
+	margin:0;
+	padding:0;
+	
+}
+
+header{
+	display:flex;
+	justify-content: center;
+	height: 120px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 990px;
+	
+}
+
+.Logo{
+	display: flex;
+	align-items: center;
+}
+
+.Menu{
+	display:flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+nav ul{
+	display:flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#727272;
+}
+
+nav .active a,
+nav a:hover {
+	background-color: #39aae1;
+	color:#FFF;
+}
+
+#banner{
+	display: flex;
+	justify-content: center;
+	background-image:url('../Imagens/img1.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 670px;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.banner_headline{
+	flex:1;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.banner_headline h1{
+	color:#FFF;
+	font-size: 70px;
+	text-shadow: 0px 1px 0px #555; 
+	margin:0;
+	padding:0;
+	max-width: 350px;
+}
+.banner_headline h2{
+	color:#FFF;
+	font-size: 21px;
+	text-shadow: 0px 1px 0px #555;
+	margin:0px;
+	padding: 0;
+	max-width: 350px;
+	margin-top: 30px;
+
+}
+.banner_options {
+	
+
+	height: 210px;
+	display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+	flex: 1;
+	color:#FFF;
+	padding: 20px;
+}
+
+.banner1{
+	background-color: #39aee1
+}
+.banner2{
+	background-color: #0079c7
+}
+.banner3{
+	background-color: #2b4c99;
+}
+
+.banner_tittle{
+    font-size: 21px;
+
+}
+.banner_titleop{
+	margin-bottom: 5px;
+}
+
+.text_description{
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.banner_options a {
+	display: inline-block;
+	border: 1px solid #FFF;
+	padding:5px;
+	color:#FFF;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.mondar-friday{
+	display: flex;
+	border-bottom: 1px solid #FFF;
+	justify-content: space-between;
+
+}
+
+.dia1{
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	
+
+}
+.hora1{
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+
+}
+
+#geral{
+	display: flex;
+	justify-content:center;
+	
+}
+
+#geral section{
+	flex:2; /* pq vai ocupar 2  banners*/
+
+}
+
+#geral aside{
+	flex:1; /*pq vai ocupar 1 banner*/
+	
+	
+}
+
+.widget_title{
+	
+	margin-top: 30px;
+	margin-bottom: 20px;
+   
+
+}
+
+.widget_title_text{
+	color:#000;
+	font-size: 21px;
+	font-weight: bold;
+	
+
+
+}
+
+.widget_title_bar{
+	width: 50px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: #36a9e1;
+}
+
+.widget_body{
+	
+}
+.widget_blocos{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	width: 100%;
+}
+.widget_blocos_ceonteúdos{
+    justify-content: space-between;
+	background-color: #39aee1;
+	width: 150px;
+	height: 150px;
+	margin: 15px 0px 15px 0px; /* respectivamente: Topo, direita, baixo, esquerda*/;
+}
+
+
+#eLastest_News{
+	flex:2;
+}
+
+#Departments_makean{
+	flex:1;
+	
+}
+article {
+	margin-right: 20px;
+	flex:1;
+	min-width: 300px;
+}
+article a{
+	text-decoration: none;
+}
+
+article .News_data{
+	display:flex;
+}
+
+article .News_posted_at{
+	background-color:#2bac99;
+	color: #FFF;
+	font-size: 12px;
+	padding: 10px;
+	margin-right: 2px;
+}
+
+article .News_comments{
+	background-color: #39aee1;
+	color:#FFF;
+	font-size: 12px;
+	padding:10px;
+}
+
+article .News_thumbnail{
+	margin-top: 30px
+}
+article .News_thumbnail img{
+	width: 100%;
+	height: auto;
+}
+
+article .News_title {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #000;
+	font-size: 23px;
+}
+article .News_Resume{
+	color:#5c5c5c;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+footer {
+	background-color: #1e1e1e;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_menu{
+	display:flex;
+	flex:1;
+}
+
+.fm_1, .fm_2, .fm_3{
+	flex:1;
+	color:#FFF;
+}
+.footer_menu a{
+	display: block;
+	padding:20px;
+	text-decoration: none;
+
+}
+.fm_1{
+	background-color:#39aee1;
+}
+
+.fm_2{
+	background-color: #0079c7;
+}
+
+.fm_3{
+	background-color:#2b4c99;
+}
+
+.footer_area{
+	display: flex;
+	color:#FFF;
+
+}
+.footer_areaitem{
+	color:#FFF;
+	flex:1;
+}
+.flexcolumn{
+	flex-direction: column;
+}
+
+footer .widget_title_text{
+	color:#FFF;
+}
+
+.footer_copy{
+	border-top: 1px solid #2c2c2c;
+	height: 40px;
+	line-height: 40px;
+	color:#5c5c5c;
+	font-size:12px;
+	margin-top:30px;
+}
+
+.fm_1 a {
+	color:#FFF;
+	padding: 20px;
+}
+
+.fm_1-titulo{
+	font-size: 21px;
+}
+
+.fm_1-text-description{
+	font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Medicenter-conteúdo1{
+	color:#5c5c5c;
+}
+
+.Medicenter-conteúdo2{
+	margin-top: 20px;
+	color:#5c5c5c;
+}
+
+.Medicenter-conteúdo3{
+	color:#5c5c5c;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.Mc3-email{
+	color:#FFF;
+}
+
+.menuMobile{
+	display: none;
+	height: 40px;
+	width:40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+
+.mm_line{
+	height: 3px;
+	background-color: #39aae1;
+}
+
+@media (max-width: 600px){
+
+
+	.banner_headline h1{
+		font-size: 55px;
+		padding: 20px;
+	}
+	.banner_headline h2{
+		font-size: 17px;
+		padding: 20px;
+	}
+	.banner_options{
+		height: auto;
+		flex
+	}
+	.container{
+		flex-direction: column;
+	}
+	#geral section,
+	#geral aside{
+		padding: 20px;
+	}
+	.footer_menu{
+		flex-direction: column;
+	}
+	.footer_area{
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	.footer_copy{
+		padding-left: 20px;
+	}
+	header .container{
+		flex-direction: row;
+	}
+	nav ul {
+		flex-direction: column;
+		display: none;
+	    background-color: #FFF;
+        position: absolute;
+        left: 0;
+        width: 100%;
+	}
+	header {
+		height: 100%;
+	}
+	.menuMobile{
+		display:flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+	}
+	.slideshow{
+		display: none;
+	}
+}
+@media (max-width: 375px){
+	#banner{
+		height: 669px;
+	}
+	.banner_headline h1{
+	font-size: 47px;
+    padding: 20px;
+    padding-left: 332px;
+	}
+	.banner_headline h2{
+		 padding: 20px;
+    padding-left: 332px;
+	}
+	.banner_options{
+		width: 1000px;
+	}
+	#geral section, #geral aside{
+		padding: 10px;
+	}
+	#Departments_makean{
+		padding: 10px;
+	}
+	.footer_area{
+		padding: 10px;
+	}
+}
