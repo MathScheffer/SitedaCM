@@ -391,7 +391,7 @@ footer .widget_title_text{
 	background-color: #39aae1;
 }
 
-@media (max-width: 600px){
+@media (max-width: 924px){
 
 
 	.banner_headline h1{
@@ -451,6 +451,7 @@ footer .widget_title_text{
 @media (max-width: 375px){
 	#banner{
 		height: 669px;
+		display: none;
 	}
 	.banner_headline h1{
 	font-size: 47px;
